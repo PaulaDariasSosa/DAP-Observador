@@ -1,0 +1,2 @@
+Nombre: Player1
+Highscore: 2600
