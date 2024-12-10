@@ -1,4 +1,4 @@
-package main.java.logros;
+package logros;
 
 import java.util.Objects;
 

@@ -1,2 +1,6 @@
 Nombre: Player1
 Highscore: 2600
+Nombre: hola
+Highscore: 3720
+Nombre: hola
+Highscore: 3740

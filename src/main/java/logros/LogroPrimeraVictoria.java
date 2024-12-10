@@ -1,4 +1,4 @@
-package main.java.logros;
+package logros;
 
 import java.util.Objects;
 
@@ -10,8 +10,8 @@ public class LogroPrimeraVictoria extends Achievement {
     @Override
     public void onEvent(String event, Object data) {
         if (!this.unlocked && Objects.equals(event, "LOGRO_PRIMERA_VICTORIA")) {
-            boolean primeraVictoria = (boolean) data;
-            if (primeraVictoria) {
+            int level = (int) data;
+            if (level >= 1) {
                 this.unlock();
                 this.showNotification();
             }
