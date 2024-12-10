@@ -1,2 +1,4 @@
 Nombre: Player1
 Highscore: 2600
+Nombre: bvcv
+Highscore: 2610
