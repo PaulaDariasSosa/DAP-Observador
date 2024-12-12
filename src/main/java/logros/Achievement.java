@@ -4,7 +4,7 @@ import es.ull.app.ShadowPac;
 
 import javax.swing.*;
 
-public class Achievement implements AchievementObserver {
+abstract class Achievement implements AchievementObserver {
     private final String name;
     private final String description;
     protected boolean unlocked;
@@ -16,7 +16,7 @@ public class Achievement implements AchievementObserver {
     }
 
     @Override
-    public void onEvent(String event, Object data) {}
+    public abstract void onEvent(String event, Object data);
 
     public void unlock() {
         this.unlocked = true;
